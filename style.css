@@ -1,0 +1,19 @@
+#myBanner{
+    width: 100%;
+    height: auto;
+} 
+
+#socials{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+p {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #464646;
+    font-size: 20px;
+  }
