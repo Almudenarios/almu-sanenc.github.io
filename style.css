@@ -10,7 +10,7 @@
     padding-top: 20px;
 }
 
-.Side a {
+.Side #innerLink {
     padding: 10px 12px 10px 20px;
     text-decoration: none;
     font-size: 30px;
@@ -19,8 +19,8 @@
 }
   
 
-.Side a:hover {
-    color: #f1f1f1;
+.Side #innerLink:hover {
+    color: #ffffff;
 }
 
 .main {
@@ -63,6 +63,73 @@
 #socials{
     margin-left: auto;
     margin-right: auto;
+} 
+
+#proyectos{
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#proyectos #concept{
+    border: none;
+    background-image: url(images/concept.jpg);
+    background-size: 450px 318px;
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+} 
+
+#proyectos #concept:hover{
+    border: none;
+    background-image: url(images/conceptHover.jpg);
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#proyectos #storyboard{
+    border: none;
+    background-image: url(images/storyboard.jpg);
+    background-size: 450px 318px;
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+} 
+
+#proyectos #storyboard:hover{
+    border: none;
+    background-image: url(images/storyboardHover.jpg);
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#proyectos #pixelart{
+    border: none;
+    background-image: url(images/pixelArt.jpg);
+    background-size: 450px 318px;
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+} 
+
+#proyectos #pixelart:hover{
+    border: none;
+    background-image: url(images/pixelArtHover.jpg);
+    width: 450px;
+    height: 318px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#proyectos #cover{
+    width: 450px;
+    height: 318px;
 } 
 
 p {
